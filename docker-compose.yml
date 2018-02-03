@@ -1,0 +1,5 @@
+# run using docker-compose up --scale nginx-test=10
+version: '2'
+services:
+  nginx-test:
+    image: valian/nginx-test-page
